@@ -11,8 +11,10 @@ The time constraint was the biggest challenge in designing, prototyping and refi
 The project involves a pair of 3-DOF robotic arms controlled by MPU-6050 IMU sensors in the form of an armband that users can wear to interact the board. Depending on the complexity and execution of a boxing move, players can score points and finish objectives. In a two-player extension, a boxing spar would take place, where the player with the most points would win. 
 
 ## CAD Model
+<img width="1746" height="904" alt="image" src="https://github.com/user-attachments/assets/28880c44-3a05-4d32-85ea-6f47bf55c750" />
 
 ## Wiring Diagram
+<img width="1657" height="1148" alt="image" src="https://github.com/user-attachments/assets/a6835ee7-3d65-4f62-8f67-bdcfdc6f140a" />
 
 ## BOM
 
