@@ -39,8 +39,8 @@ enum ServoRole : uint8_t {
 // ---------------------------------------------------------------------------
 #define LEFT_I2C_SDA          4
 #define LEFT_I2C_SCL          5
-#define RIGHT_I2C_SDA         2
-#define RIGHT_I2C_SCL         3
+#define RIGHT_I2C_SDA         0
+#define RIGHT_I2C_SCL         1
 
 #define MPU6050_ADDR_LOW      0x68   // AD0 LOW  — upper arm
 #define MPU6050_ADDR_HIGH     0x69   // AD0 HIGH — forearm
@@ -50,9 +50,9 @@ enum ServoRole : uint8_t {
 // ---------------------------------------------------------------------------
 static const uint8_t SERVO_PINS[TOTAL_SERVOS] = {
   // Left arm
-  6, 7, 8,   // Shoulder Yaw, Shoulder Pitch, Elbow Pitch
+  13, 14, 15,   // Shoulder Yaw, Shoulder Pitch, Elbow Pitch
   // Right arm
-  9, 10, 11  // Shoulder Yaw, Shoulder Pitch, Elbow Pitch
+  10, 11, 12  // Shoulder Yaw, Shoulder Pitch, Elbow Pitch
 };
 
 static const uint8_t SERVO_NEUTRAL[SERVO_ROLE_COUNT] = {
